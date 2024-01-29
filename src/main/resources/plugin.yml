@@ -1,0 +1,10 @@
+name: SCCaptureTheFlag
+version: '${project.version}'
+main: br.com.thomaszoord.sccapturetheflag.SCCaptureTheFlag
+author: thomaszoord
+softdepend: [SCVerso]
+commands:
+  ctf:
+    description: 'Comando principal do plugin. Use /ctf help para mais detalhes'
+  time:
+  kit:
