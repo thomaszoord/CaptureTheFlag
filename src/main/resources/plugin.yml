@@ -1,6 +1,6 @@
-name: SCCaptureTheFlag
+name: CaptureTheFlag
 version: '${project.version}'
-main: br.com.thomaszoord.sccapturetheflag.SCCaptureTheFlag
+main: br.com.thomaszoord.CaptureTheFlag
 author: thomaszoord
 softdepend: [SCVerso]
 commands:
@@ -8,3 +8,4 @@ commands:
     description: 'Comando principal do plugin. Use /ctf help para mais detalhes'
   time:
   kit:
+  g:

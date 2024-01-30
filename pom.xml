@@ -5,11 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>br.com.thomaszoord</groupId>
-    <artifactId>SCCaptureTheFlag</artifactId>
+    <artifactId>CaptureTheFlag</artifactId>
     <version>0.5</version>
     <packaging>jar</packaging>
 
-    <name>SCCaptureTheFlag</name>
+    <name>CaptureTheFlag</name>
 
     <properties>
         <java.version>1.8</java.version>
