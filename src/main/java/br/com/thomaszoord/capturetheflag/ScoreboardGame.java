@@ -1,8 +1,8 @@
 package br.com.thomaszoord.capturetheflag;
 
-import br.com.thomaszoord.Partidas.Partida;
-import br.com.thomaszoord.Partidas.Time.Time;
-import br.com.thomaszoord.Partidas.enums.Status;
+import br.com.thomaszoord.partidas.Partida;
+import br.com.thomaszoord.partidas.time.Time;
+import br.com.thomaszoord.partidas.enums.Status;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;

@@ -1,17 +1,16 @@
 package br.com.thomaszoord;
 
-import br.com.thomaszoord.Commands.CTFCommands;
-import br.com.thomaszoord.Eventos.Espectador;
-import br.com.thomaszoord.Eventos.EventosUtils;
-import br.com.thomaszoord.Eventos.JoinQuitEvent;
-import br.com.thomaszoord.APIs.Config;
+import br.com.thomaszoord.commands.CTFCommands;
+import br.com.thomaszoord.eventos.Espectador;
+import br.com.thomaszoord.eventos.EventosUtils;
+import br.com.thomaszoord.eventos.JoinQuitEvent;
 import br.com.thomaszoord.capturetheflag.EventoChat;
 import br.com.thomaszoord.capturetheflag.EventosInventario;
 import br.com.thomaszoord.capturetheflag.Kits.KitsManager;
 import br.com.thomaszoord.capturetheflag.PvPEvents;
 import br.com.thomaszoord.capturetheflag.PontuacaoEvento;
-import br.com.thomaszoord.Partidas.Arenas;
-import br.com.thomaszoord.Partidas.PartidaManager;
+import br.com.thomaszoord.partidas.Arenas;
+import br.com.thomaszoord.partidas.PartidaManager;
 import org.bukkit.Bukkit;
 import org.bukkit.Location;
 import org.bukkit.World;
@@ -81,12 +80,9 @@ public final class CaptureTheFlag extends JavaPlugin {
     public void onDisable() {
         // Plugin shutdown logic
         Bukkit.getConsoleSender().sendMessage("");
-        Bukkit.getConsoleSender().sendMessage("§6SC_" + minigame);
+        Bukkit.getConsoleSender().sendMessage("§6" + minigame);
         Bukkit.getConsoleSender().sendMessage("§cPlugin desabilitado.");
         Bukkit.getConsoleSender().sendMessage("");
-
-
-
     }
 
 

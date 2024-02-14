@@ -1,7 +1,7 @@
-package br.com.thomaszoord.Partidas.Time;
+package br.com.thomaszoord.partidas.time;
 
-import br.com.thomaszoord.Partidas.Partida;
-import br.com.thomaszoord.Partidas.PartidaManager;
+import br.com.thomaszoord.partidas.Partida;
+import br.com.thomaszoord.partidas.PartidaManager;
 import org.bukkit.ChatColor;
 import org.bukkit.Location;
 import org.bukkit.entity.Player;

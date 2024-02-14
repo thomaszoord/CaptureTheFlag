@@ -1,12 +1,12 @@
-package br.com.thomaszoord.Partidas;
+package br.com.thomaszoord.partidas;
 
-import br.com.thomaszoord.Partidas.Time.Time;
-import br.com.thomaszoord.APIs.SoundAPI;
+import br.com.thomaszoord.partidas.time.Time;
+import br.com.thomaszoord.api.SoundAPI;
 import br.com.thomaszoord.capturetheflag.EquiparJogadores;
 import br.com.thomaszoord.capturetheflag.Kits.enums.Kit;
 import br.com.thomaszoord.capturetheflag.ScoreboardGame;
-import br.com.thomaszoord.Eventos.Espectador;
-import br.com.thomaszoord.Partidas.enums.Status;
+import br.com.thomaszoord.eventos.Espectador;
+import br.com.thomaszoord.partidas.enums.Status;
 import br.com.thomaszoord.CaptureTheFlag;
 import org.bukkit.*;
 import org.bukkit.configuration.file.YamlConfiguration;
@@ -14,7 +14,6 @@ import org.bukkit.entity.Player;
 import org.bukkit.potion.PotionEffect;
 import org.bukkit.potion.PotionEffectType;
 import org.bukkit.scheduler.BukkitRunnable;
-import scverso.VersoManager;
 
 import java.io.File;
 import java.io.IOException;
@@ -291,8 +290,8 @@ public class Partida {
         Bukkit.getServer().unloadWorld(mundo, false);
         Bukkit.getConsoleSender().sendMessage("§aPartida §f" + nome + " §adescarregando as Chunks...");
 
-        VersoManager.getManager().copyVerso(arena.getName(), nomeMundo, false);
-        mundo = VersoManager.getManager().getWorld(nomeMundo);
+//        VersoManager.getManager().copyVerso(arena.getName(), nomeMundo, false);
+//        mundo = VersoManager.getManager().getWorld(nomeMundo);
 
         mundo.setAutoSave(false);
 
@@ -307,7 +306,7 @@ public class Partida {
 
         spawn = CaptureTheFlag.getLocationConfig(arena, "Spawn", mundo);
 
-        mundo = VersoManager.getManager().getWorld(nome);
+//        mundo = VersoManager.getManager().getWorld(nome);
 
         mundo.setGameRuleValue("doDaylightCycle", "false");
         mundo.setGameRuleValue("doMobSpawning", "false");

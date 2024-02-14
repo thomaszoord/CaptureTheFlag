@@ -1,8 +1,8 @@
-package br.com.thomaszoord.Eventos;
+package br.com.thomaszoord.eventos;
 
-import br.com.thomaszoord.Partidas.Partida;
-import br.com.thomaszoord.Partidas.PartidaManager;
-import br.com.thomaszoord.Partidas.enums.Status;
+import br.com.thomaszoord.partidas.Partida;
+import br.com.thomaszoord.partidas.PartidaManager;
+import br.com.thomaszoord.partidas.enums.Status;
 import org.bukkit.*;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;

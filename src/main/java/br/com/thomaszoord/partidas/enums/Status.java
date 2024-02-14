@@ -1,4 +1,4 @@
-package br.com.thomaszoord.Partidas.enums;
+package br.com.thomaszoord.partidas.enums;
 
 public enum Status {
 

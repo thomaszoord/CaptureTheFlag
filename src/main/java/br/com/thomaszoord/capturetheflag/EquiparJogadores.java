@@ -1,10 +1,10 @@
 package br.com.thomaszoord.capturetheflag;
 
-import br.com.thomaszoord.Partidas.Partida;
-import br.com.thomaszoord.Partidas.Time.Time;
+import br.com.thomaszoord.partidas.Partida;
+import br.com.thomaszoord.partidas.time.Time;
 import br.com.thomaszoord.capturetheflag.Kits.KitsManager;
 import br.com.thomaszoord.capturetheflag.Kits.enums.Kit;
-import br.com.thomaszoord.Partidas.PartidaManager;
+import br.com.thomaszoord.partidas.PartidaManager;
 import org.bukkit.GameMode;
 import org.bukkit.Material;
 import org.bukkit.entity.Player;

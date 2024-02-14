@@ -1,4 +1,4 @@
-package br.com.thomaszoord.Partidas;
+package br.com.thomaszoord.partidas;
 
 import br.com.thomaszoord.CaptureTheFlag;
 import org.bukkit.Bukkit;

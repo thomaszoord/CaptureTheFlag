@@ -1,11 +1,11 @@
 package br.com.thomaszoord.capturetheflag.Kits;
 
-import br.com.thomaszoord.Eventos.EventosUtils;
-import br.com.thomaszoord.Partidas.Partida;
+import br.com.thomaszoord.eventos.EventosUtils;
+import br.com.thomaszoord.partidas.Partida;
 import br.com.thomaszoord.capturetheflag.Kits.enums.Classe;
 import br.com.thomaszoord.capturetheflag.Kits.enums.Kit;
 import br.com.thomaszoord.capturetheflag.PvPEvents;
-import br.com.thomaszoord.Partidas.PartidaManager;
+import br.com.thomaszoord.partidas.PartidaManager;
 import org.bukkit.Material;
 import org.bukkit.Sound;
 import org.bukkit.entity.Arrow;

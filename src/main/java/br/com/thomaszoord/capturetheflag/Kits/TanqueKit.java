@@ -2,8 +2,8 @@ package br.com.thomaszoord.capturetheflag.Kits;
 
 import br.com.thomaszoord.capturetheflag.Kits.enums.Classe;
 import br.com.thomaszoord.capturetheflag.Kits.enums.Kit;
-import br.com.thomaszoord.Partidas.Partida;
-import br.com.thomaszoord.Partidas.PartidaManager;
+import br.com.thomaszoord.partidas.Partida;
+import br.com.thomaszoord.partidas.PartidaManager;
 import org.bukkit.Material;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;

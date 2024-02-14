@@ -1,8 +1,8 @@
 package br.com.thomaszoord.capturetheflag;
 
-import br.com.thomaszoord.Partidas.Partida;
-import br.com.thomaszoord.Partidas.Time.Time;
-import br.com.thomaszoord.Partidas.PartidaManager;
+import br.com.thomaszoord.partidas.Partida;
+import br.com.thomaszoord.partidas.time.Time;
+import br.com.thomaszoord.partidas.PartidaManager;
 import br.com.thomaszoord.CaptureTheFlag;
 import org.bukkit.GameMode;
 import org.bukkit.Location;

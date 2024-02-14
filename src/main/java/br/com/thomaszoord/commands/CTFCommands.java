@@ -1,9 +1,9 @@
-package br.com.thomaszoord.Commands;
+package br.com.thomaszoord.commands;
 
-import br.com.thomaszoord.Partidas.Partida;
-import br.com.thomaszoord.Partidas.Arenas;
-import br.com.thomaszoord.Partidas.PartidaManager;
-import br.com.thomaszoord.Partidas.enums.Status;
+import br.com.thomaszoord.partidas.Partida;
+import br.com.thomaszoord.partidas.Arenas;
+import br.com.thomaszoord.partidas.PartidaManager;
+import br.com.thomaszoord.partidas.enums.Status;
 import br.com.thomaszoord.CaptureTheFlag;
 import net.md_5.bungee.api.chat.ClickEvent;
 import net.md_5.bungee.api.chat.ComponentBuilder;

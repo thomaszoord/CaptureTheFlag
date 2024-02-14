@@ -1,8 +1,8 @@
-package br.com.thomaszoord.Eventos;
+package br.com.thomaszoord.eventos;
 
-import br.com.thomaszoord.Partidas.Partida;
-import br.com.thomaszoord.Partidas.Arenas;
-import br.com.thomaszoord.Partidas.PartidaManager;
+import br.com.thomaszoord.partidas.Partida;
+import br.com.thomaszoord.partidas.Arenas;
+import br.com.thomaszoord.partidas.PartidaManager;
 import org.bukkit.Material;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;

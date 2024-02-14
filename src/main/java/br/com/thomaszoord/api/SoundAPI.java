@@ -1,4 +1,4 @@
-package br.com.thomaszoord.APIs;
+package br.com.thomaszoord.api;
 
 
 import org.bukkit.Sound;

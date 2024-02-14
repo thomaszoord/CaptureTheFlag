@@ -1,8 +1,7 @@
-package br.com.thomaszoord.Partidas;
+package br.com.thomaszoord.partidas;
 
-import br.com.thomaszoord.APIs.Config;
 import br.com.thomaszoord.CaptureTheFlag;
-import br.com.thomaszoord.Partidas.enums.Status;
+import br.com.thomaszoord.partidas.enums.Status;
 import org.bukkit.Bukkit;
 import org.bukkit.World;
 import org.bukkit.entity.Player;
@@ -113,8 +112,8 @@ public class PartidaManager {
     public static void cadastrarPartida(String nome){
         Partida partida = new Partida(nome, false);
 
-        partida.nome = Config.config.getString("Partidas." + nome + ".Nome");
-        World arena = Bukkit.getWorld(Config.config.getString("Partidas." + nome + ".Arena"));
+//        partida.nome = Config.config.getString("Partidas." + nome + ".Nome");
+//        World arena = Bukkit.getWorld(Config.getString("Partidas." + nome + ".Arena"));
 
         // INSTANCIA CONFIG DA ARENA
         if(arena == null){

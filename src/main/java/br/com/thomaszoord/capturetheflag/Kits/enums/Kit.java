@@ -1,8 +1,8 @@
 package br.com.thomaszoord.capturetheflag.Kits.enums;
 
-import br.com.thomaszoord.Eventos.EventosUtils;
-import br.com.thomaszoord.Partidas.Partida;
-import br.com.thomaszoord.Partidas.PartidaManager;
+import br.com.thomaszoord.eventos.EventosUtils;
+import br.com.thomaszoord.partidas.Partida;
+import br.com.thomaszoord.partidas.PartidaManager;
 import br.com.thomaszoord.CaptureTheFlag;
 import org.bukkit.Bukkit;
 import org.bukkit.Material;
